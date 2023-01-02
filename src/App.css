@@ -1,0 +1,4 @@
+.dropdown-item:focus, .dropdown-item:active {
+    color: black; 
+    background-color:white !important; 
+}   

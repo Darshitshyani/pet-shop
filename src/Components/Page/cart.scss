@@ -1,0 +1,121 @@
+.cart-header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: #ffd288;
+}
+.container {
+  .cart-body {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    .cart-item-table {
+      width: 100%;
+
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      tr {
+        padding: 20px;
+        text-align: center;
+        th {
+          padding: 20px;
+          background-color: #ffbc4e;
+          &:nth-child(1) {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+          }
+          &:nth-child(5) {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+        }
+        td {
+          border-bottom: 1px solid rgb(205, 199, 199);
+          padding: 40px;
+          text-align: center;
+          font-size: 20px;
+          font-weight: 500;
+          height: 100%;
+          &:nth-child(4) {
+            gap: 10px;
+            button {
+              background-color: #ffbc4e;
+              border: 0px;
+              border-radius: 50%;
+              width: 30px;
+              margin: 10px;
+              text-align: center;
+              color: white;
+              font-size: 18px;
+              font-weight: 500;
+            }
+          }
+
+          .close-btn {
+            margin-left: 20px;
+            color: rgb(244, 70, 70);
+            width: 50px;
+            height: 30px;
+            cursor: pointer;
+          }
+        }
+        .promo-sec {
+          input {
+            border: 2px dashed rgb(205, 199, 199);
+            text-align: center;
+            font-size: 18px;
+          }
+          button {
+            width: 100px;
+            height: 30px;
+            border: 0px;
+            background-color: #ffbc4e;
+            font-size: 12px;
+            margin-left: 20px;
+            font-weight: 500;
+            color: white;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
+    .cart-summary {
+      width: 100%;
+      margin-top: 30px;
+      th{
+        padding: 20px;
+        border-bottom: 2px solid rgb(205, 199, 199);
+       font-size: 25px;
+      }
+      tr {
+        .address-summery{
+            p{
+                margin-top: 20px;
+                font-size: 15px;
+                color: #75DBF9;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+        td {
+          padding: 20px;
+          font-size: 20px;
+          text-align: center;
+          font-weight: 500;
+         
+        }
+        
+      }
+      .shipping-row{
+        td{
+            border-bottom: 2px solid rgb(205, 199, 199);
+        }
+      }
+    }
+  }
+}
